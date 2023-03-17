@@ -1,0 +1,15 @@
+// ==============================================================about
+
+.header2{
+    min-height: 400px;
+    background-image: url("/assets/images/t3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .text-nav-black{
+    color: black !important;
+    @media only screen and (max-width:991px){
+        color: white !important;
+    }
+ }
