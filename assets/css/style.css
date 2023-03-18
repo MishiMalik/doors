@@ -76,7 +76,7 @@
 
 /* ====================================================================Font Colors */
 .text-primary {
-  color: #c19a5b !important; }
+  color: #FEC619 !important; }
 
 .text-grey {
   color: #979797; }
@@ -135,7 +135,7 @@ body {
   color: white !important;
   font-size: 16px;
   font-weight: 500;
-  background-color: #c19a5b;
+  background-color: #FEC619;
   border-radius: 4px !important;
   padding: 7px 20px !important;
   font-size: 14px;
@@ -145,7 +145,7 @@ body {
 .btn-fill-lg {
   color: white !important;
   font-weight: 400;
-  background-color: #c19a5b;
+  background-color: #FEC619;
   border-radius: 2px !important;
   padding: 15px 30px !important;
   font-size: 20px;
@@ -375,7 +375,10 @@ body {
     background-color: #000000c5; } }
 
 .logo {
-  font-family: 'Nunito', sans-serif !important; }
+  height: 80px; }
+  @media only screen and (max-width: 767px) {
+    .logo {
+      height: 50px; } }
 
 .nav-item-nav {
   margin: 0px 10px; }
@@ -390,11 +393,11 @@ body {
   line-height: 10px; }
 
 .nav-item-nav .nav-link:hover {
-  color: #c19a5b !important; }
+  color: #FEC619 !important; }
 
 .nav-item-nav .active-nav {
-  border-bottom: 2px solid #c19a5b;
-  color: #c19a5b !important; }
+  border-bottom: 2px solid #FEC619;
+  color: #FEC619 !important; }
 
 @media only screen and (max-width: 991px) {
   .navbar-collapse {
@@ -411,10 +414,10 @@ body {
   box-shadow: none !important; }
 
 .header-text {
-  height: calc( 100vh - 150px); }
+  height: calc( 100vh - 200px); }
   @media only screen and (max-width: 767px) {
     .header-text {
-      height: calc( 100vh - 60px); } }
+      height: calc( 100vh - 90px); } }
 
 @media only screen and (max-width: 767px) {
   .header-text br {
@@ -423,7 +426,7 @@ body {
 .go-bottom {
   background-color: rgba(255, 255, 255, 0.364);
   font-size: 50px;
-  color: #c19a5b;
+  color: #FEC619;
   line-height: 30px;
   border-radius: 100%;
   padding: 7px; }
@@ -498,7 +501,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  color: #c19a5b;
+  color: #FEC619;
   line-height: 20px; }
 
 .flickity-button-icon {
