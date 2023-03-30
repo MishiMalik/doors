@@ -13,3 +13,42 @@
         color: white !important;
     }
  }
+
+
+//  ====================================================FAQ
+.accordion-button:not(.collapsed){
+    color: black !important;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+.accordion-item{
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid $grey-dark;
+    border-radius: 0px !important;
+    margin-top: 20px;
+}
+.accordion-button:focus{
+    border-color: none;
+    box-shadow: none;
+}
+.accordion-button{
+    font-size: 16px ;
+    font-weight: 600;
+    color: black;
+}
+.accordion-body{
+    padding-top: 0px
+}
+.accordion-body{
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 400;
+}
+// ==============================================================services
+.side-bar{
+    background-color: #E3E3E3;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
