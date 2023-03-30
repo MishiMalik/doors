@@ -5,6 +5,10 @@ background-image: url("/assets/images/main-1.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+@media only screen and (min-width:1800px){
+  height: 70vh;
+  min-height: 70vh;
+}
 }
 .address-bar{
     background-color: #000000bb;
@@ -72,6 +76,9 @@ background-size: cover;
       
             height: calc( 100vh - 90px )
     }
+    @media only screen and (min-width:1800px){
+        height: calc( 70vh - 200px );
+      }
 
 
  }
@@ -198,6 +205,10 @@ background-size: cover;
     @media only screen and (max-width:500px){
         padding: 20px 0px;
     }
+    @media only screen and (min-width:1800px){
+        height: 70vh;
+        min-height: 70vh;
+      }
 }
 .contact-form{
     background-color: white;
