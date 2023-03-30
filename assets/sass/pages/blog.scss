@@ -1,0 +1,48 @@
+
+.header-blog{
+    // min-height: 400px;
+    background-image: url("/assets/images/blog1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+ }
+ .blog-heading{
+    background-color: white;
+    padding:30px 20px;
+    margin-top: -100px;
+    font-size: 40px;
+    font-weight: 600;
+    color: $black;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    p{
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+    }
+    h2{
+        font-size: 40px;
+        color: $primary;
+        font-weight: 600;
+    }
+ }
+ .blog-carousel{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    background-color: white;
+    .carousel-item {
+        object-fit: contain;
+        height: 400px !important;
+    overflow: hidden;
+        img{
+            object-fit: contain;
+            height: 100%;
+            width: 100%;
+        }
+    }
+ }
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon{
+background-color: $primary;
+ }
