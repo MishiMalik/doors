@@ -368,7 +368,7 @@ body {
 
 .header {
   min-height: 100vh;
-  background-image: url("/assets/images/main-1.jpg");
+  background-image: url("../images/main-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -529,7 +529,7 @@ body {
   display: none; }
 
 .contact {
-  background-image: url("/assets/images/contact.webp");
+  background-image: url("../images/contact.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -572,7 +572,7 @@ body {
 
 .header2 {
   min-height: 400px;
-  background-image: url("/assets/images/t3.jpg");
+  background-image: url("../images/t3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -620,7 +620,7 @@ body {
 
 .header-contact {
   min-height: 450px;
-  background-image: url("/assets/images/contact.jpg");
+  background-image: url("../images/contact.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -663,7 +663,7 @@ body {
 .dropdown-menu[data-bs-popper] {
   width: 200px;
   top: 40px;
-  left: -170px;
+  left: -100px;
   background-color: #18181B;
   color: #e2e8f0;
   font-size: 14px;
@@ -732,7 +732,7 @@ body {
   display: flex; }
 
 .header-blog {
-  background-image: url("/assets/images/blog1.jpg");
+  background-image: url("../images/blog1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
