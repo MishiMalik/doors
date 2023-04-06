@@ -90,6 +90,9 @@
 .font-nunito {
   font-family: 'Nunito', sans-serif !important; }
 
+.libre {
+  font-family: 'Libre Bodoni', serif; }
+
 /* =========================================================backgroun */
 .bg-black {
   background-color: #000000; }
@@ -144,7 +147,8 @@ body {
   padding: 7px 20px !important;
   font-size: 14px;
   color: white;
-  border: none !important; }
+  border: none !important;
+  font-family: 'Libre Bodoni', serif !important; }
 
 .btn-fill-lg {
   color: white !important;
@@ -155,7 +159,8 @@ body {
   font-size: 20px;
   color: white;
   border: none !important;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'Libre Bodoni', serif !important; }
   @media only screen and (max-width: 767px) {
     .btn-fill-lg {
       padding: 10px 25px !important;
@@ -169,7 +174,7 @@ body {
   color: white;
   border: none !important;
   text-decoration: none;
-  font-family: 'Nunito', sans-serif !important; }
+  font-family: 'Libre Bodoni', serif !important; }
 
 @keyframes move {
   0% {
@@ -486,7 +491,6 @@ body {
   .service-card .service-card-text {
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #817870;
-    margin-left: -20px;
     transition: all .5s; }
     .service-card .service-card-text i {
       font-size: 25px;
@@ -529,7 +533,7 @@ body {
   display: none; }
 
 .contact {
-  background-image: url("../images/contact.webp");
+  background-image: url("../images/modern-interior-design-of-apartment--living-room-with-sofa--dining-room--contemporary-home--3d-rendering-1334991953-b58a3ce7cec54d04b641d7113c4f4438.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
