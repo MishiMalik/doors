@@ -134,9 +134,12 @@ background-size: cover;
         width: 100%;
         height: auto;
         height: 250px;
+        object-fit: contain;
+        background-color: #f9f9f9;
         img{
             height: 100%;
             width: 100%;
+            object-fit: contain;
         }
     }
     .service-card-text{
