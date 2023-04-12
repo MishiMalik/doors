@@ -702,6 +702,7 @@ flipContainer.flipster({
   itemSelector: flipItem,
   loop: 1,
   start: 1,
+  autoplay:3000,
   style: 'infinite-carousel',
   spacing: 0,
   scrollwheel: false,
@@ -710,3 +711,11 @@ flipContainer.flipster({
   nav: 'after',
 });
 
+
+
+
+// setInterval(function(){
+//     $(".flipster").flipster(
+//         'jump', 'right'
+//     );
+// },3000);
