@@ -702,7 +702,7 @@ flipContainer.flipster({
   itemSelector: flipItem,
   loop: 1,
   start: 1,
-  autoplay:3000,
+  autoplay:10000,
   style: 'infinite-carousel',
   spacing: 0,
   scrollwheel: false,
